@@ -15,10 +15,7 @@ Este projeto utiliza o k6 para realizar testes de carga na API pública **JSONPl
 
 ## Como Executar
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/my-k6-load-test.git
-   cd my-k6-load-test
+1. Clone este repositório
 
 2. Execute
    - k6 run scripts/test_get_posts.js
