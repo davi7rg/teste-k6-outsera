@@ -21,7 +21,7 @@ Este projeto utiliza o k6 para realizar testes de carga na API pública **JSONPl
    cd my-k6-load-test
 
 2. Execute
-    k6 run scripts/test_get_posts.js
+   - k6 run scripts/test_get_posts.js
 
 3. Verifique os resultados
-    k6 run --out json=reports/results.json scripts/test_get_posts.js
+   - k6 run --out json=reports/results.json scripts/test_get_posts.js
